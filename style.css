@@ -1,0 +1,42 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0B666A;
+  }
+
+  li {
+    float: right;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+  }
+  li {
+    float: left;
+  }
+
+  li a {
+    display: icon;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  {
+    min-width: 1177px;
+}
+
+  
+  li a:hover:not(.active) {
+    background-color: #e20799;
+  }
+
+  .active {
+  background-color: #35A29F;
+}
